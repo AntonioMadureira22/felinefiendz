@@ -10,7 +10,7 @@ import "../components/button.css"
 
 //video background
 import FiendzVideo2 from "../assets/Bodega Video2_instore.mp4"
-import FiendzVideo3 from "../assets/final2.0.mp4"
+
 
 const Bodega = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -28,31 +28,28 @@ const Bodega = () => {
       </div>
       <div className='btn4'>
         <Link to="/RoadMap">
-          <button>roadmap</button>
+          <button className='btn-4'>roadmap</button>
         </Link>
       </div>
       <div className='btn5'>
         <a href='https://opensea.io/collection/felinefiendznft' target="_blank" rel='noreferrer'>
-          <button>opensea</button>
+          <button className='btn-5'>opensea</button>
         </a>
       </div>
       <div className='btn6'>
         <Link to="/team">
-          <button>team</button>
+          <button className='btn-6'>team</button>
         </Link>
       </div>
       <div className='btn7'>
         <div className='modal'>
           <Modal open={isOpen} onClose={() => setIsOpen(false)}>
           </Modal>
-          <button onClick={() => setIsOpen(true)}>$NIP</button>
+          <p onClick={() => setIsOpen(true)}>$NIP</p>
         </div>
       </div>
       <div className='video2'>
         <video src={FiendzVideo2} autoPlay muted></video>
-      </div>
-      <div className='video3'>
-        <video src={FiendzVideo3} autoPlay loop muted></video>
       </div>
     </div>
 

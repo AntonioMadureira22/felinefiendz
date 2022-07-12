@@ -59,7 +59,7 @@ const Team = () => {
       <div className='priv'>
         <a href={pdf1} target="_blank" rel="noreferrer">Privacy Policy </a>
         <div>
-          <a classname="tos" href={pdf2} target="_blank" rel="noreferrer">TERMS OF SERVICE</a>
+          <a className="tos" href={pdf2} target="_blank" rel="noreferrer">TERMS OF SERVICE</a>
         </div>
       </div>
 
