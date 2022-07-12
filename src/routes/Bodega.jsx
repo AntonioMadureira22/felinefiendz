@@ -16,6 +16,9 @@ const Bodega = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div className='chief'>
+       <div className='video2'>
+        <video src={FiendzVideo2} autoPlay muted></video>
+      </div>
       <div className='btn2'>
         <a href='https://discord.com/channels/934616456015007815/953830951811686470' target="_blank" rel='noreferrer'>
           <button>Click me</button>
@@ -48,9 +51,7 @@ const Bodega = () => {
           <p onClick={() => setIsOpen(true)}>$NIP</p>
         </div>
       </div>
-      <div className='video2'>
-        <video src={FiendzVideo2} autoPlay muted></video>
-      </div>
+     
     </div>
 
   )
