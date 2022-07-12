@@ -10,8 +10,8 @@ export default function Modal({ open, onClose }) {
       <div className="content">
       <p>
       The native currency for the Bodega is called $NIP. The amount of $NIP you earn per day, corresponds to how many Fiendz you own. The more Fiendz you own, the more $NIP you earn per day. $NIP has to be collected daily in our discord. For more information go to our discord server.
-      <p onClick={onClose} className="closeBtn">Exit</p>
       </p>
+      <p onClick={onClose} className="closeBtn">Exit</p>
       </div>
     </div>
   )
