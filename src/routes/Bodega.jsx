@@ -21,7 +21,7 @@ const Bodega = () => {
       </div>
       <div className='btn2'>
         <a href='https://discord.com/channels/934616456015007815/953830951811686470' target="_blank" rel='noreferrer'>
-          <button>Click me</button>
+          <button className='btn-2'>Click me</button>
         </a>
       </div>
       <div className='btn3'>
