@@ -29,14 +29,6 @@ p{
     line-height: 1.55;
 }
 
-img{
-    height: 500px;
-    width: 500px;
-    display: black;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 .tname1{
     margin-top: 60px;
     margin-bottom: -50px;
@@ -84,15 +76,6 @@ a:hover{
         text-align: center;
     
     }
-    img{
-        height: 500px;
-        width: 500px;
-        display: black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
     .pgr1{
         margin-top: 23px;
         font-size: 23px;
@@ -145,14 +128,7 @@ a:hover{
         text-align: center;
     
     }
-    img{
-        height: 300px;
-        width: 300px;
-        display: black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
     
     .pgr1{
         margin-top: 23px;
@@ -207,14 +183,7 @@ a:hover{
         text-align: center;
     
     }
-    img{
-        height: 300px;
-        width: 300px;
-        display: black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+   
     
     .pgr1{
         margin-top: 23px;

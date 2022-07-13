@@ -34,6 +34,43 @@
     cursor: pointer;
 }
 /*mobile screens*/
+@media screen and (max-width:1050px){
+    .modal{
+        position: fixed;
+        transform: translate(-50%, -50%);
+    }
+    .content{
+        font-size: 23px;
+        text-shadow: 2px 2px 4px white;
+        margin-top: 3rem;
+        padding: 4rem, 4rem;
+        width: 100%;
+        height: 100%;
+        font-family: 'Staatliches', cursive;
+        background-color: rgb(75, 217, 113);
+        box-shadow: inset 
+        0px 0px 0px 2px rgba(0,0,0,0.5), 
+        6px 10px 4px rgba(0,0,0,0.1),
+        0px 20px 8px rgba(0,0,0,0.1),
+        5px 30px 16px rgba(0,0,0,0.1);;
+        border-radius: 8px;
+        opacity: 100%;
+    }
+    .closeBtn{
+        position: fixed;
+        font-size: 17px;
+        top: 80%;
+        float: left;
+        left: 93%;
+        text-decoration: underline;
+    }
+    .closeBtn:hover, .close:active{
+        color: red;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+}
 @media screen and (max-width:980px){
     .modal{
         position: fixed;

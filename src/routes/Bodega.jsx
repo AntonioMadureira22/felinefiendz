@@ -52,6 +52,11 @@ const Bodega = () => {
           <p id="nip" onClick={ () => setIsOpen(true)}>$NIP</p>
         </div>
       </div>
+      <div className='btn8'>
+        <Link to="/traits">
+          <button className='btn-8'>Traits</button>
+        </Link>
+      </div>
     </div>
 
   )
