@@ -14,10 +14,11 @@ import FiendzVideo2 from "../assets/Bodega Video2_instore.mp4"
 
 const Bodega = () => {
   const [isOpen, setIsOpen] = useState(false)
+  
   return (
     <div className='chief'>
        <div className='video2'>
-        <video src={FiendzVideo2} autoPlay muted playsInline></video>
+        <video autoPlay muted playsInline src={FiendzVideo2} ></video>
       </div>
       <div className='btn2'>
         <a href='https://discord.com/channels/934616456015007815/953830951811686470' target="_blank" rel='noreferrer'>
@@ -48,16 +49,13 @@ const Bodega = () => {
         <div className='modal'>
           <Modal open={isOpen} onClose={() => setIsOpen(false)}>
           </Modal>
-          <p onClick={() => setIsOpen(true)}>$NIP</p>
+          <p id="nip" onClick={ () => setIsOpen(true)}>$NIP</p>
         </div>
       </div>
-     
     </div>
 
   )
-}
-
-
+};
 
 
 export default Bodega

@@ -444,6 +444,88 @@ button {
     .btn7:hover,
     .btn7:active {
         opacity: 100%;
+
+    }
+}
+/*for iphones in landscape mode*/
+@media screen and (max-width: 820px) and (orientation: landscape) {
+    button {
+        cursor: pointer;
+        height: 60px;
+        width: 80px;
+    }
+
+    .btn2 {
+        z-index: 2;
+        position: absolute;
+        left: 1%;
+        opacity: 0%;
+        top: 1%;
+    }
+    .btn-2{
+        height: 75px;
+        width: 75px;
+    }
+    .btn3 {
+        z-index: 2;
+        position: absolute;
+        left: 25%;
+        top: -5%;
+        opacity: 0%;
+    }
+
+    .btn4 {
+        z-index: 2;
+        position: absolute;
+        left: 54%;
+        top: -9%;
+        opacity: 0%;
+
+    }
+
+    .btn-4 {
+        height: 90px;
+        width: 140px;
+    }
+
+    .btn5 {
+        z-index: 2;
+        position: absolute;
+        left: 74%;
+        bottom: 49%;
+        opacity: 0%;
+    }
+    .btn-5{
+        height: 120px;
+        width: 50px;
+    }
+
+    .btn6 {
+        z-index: 2;
+        position: absolute;
+        left: 86%;
+        top: 7%;
+        opacity: 0%;
+    }
+
+    .btn-6 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .btn7 {
+        z-index: 2;
+        font-size: 15px;
+        position: absolute;
+        left: 51%;
+        bottom: 33%;
+        opacity: 0%;
+
+    }
+
+    .btn7:hover,
+    .btn7:active {
+        opacity: 100%;
     }
 }
 /*ipad's etc*/
