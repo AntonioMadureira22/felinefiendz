@@ -10,6 +10,7 @@ import Bodega from "./routes/Bodega"
 import Team from "./routes/Team"
 import RoadMap from "./routes/RoadMap"
 import Traits from "./routes/Traits"
+import Nip from "./routes/Nip"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
        <Route path="/RoadMap" element={<RoadMap /> } />
        <Route path="/Team" element={<Team />} />
        <Route path="/Bodega" element={<Bodega />} />
+       <Route path="/Nip" element={<Nip />} />
        <Route path="/Traits" element={<Traits />} />
      </Routes>
     </div>

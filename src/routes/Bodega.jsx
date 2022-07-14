@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-//modal $nip 
-import Modal from "../components/modal"
 
 //stylesheet
 import "../components/bodega.css"
@@ -13,11 +11,11 @@ import FiendzVideo2 from "../assets/Bodega Video2_instore.mp4"
 
 
 const Bodega = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  
+
+
   return (
     <div className='chief'>
-       <div className='video2'>
+      <div className='video2'>
         <video autoPlay muted playsInline src={FiendzVideo2} ></video>
       </div>
       <div className='btn2'>
@@ -46,16 +44,19 @@ const Bodega = () => {
         </Link>
       </div>
       <div className='btn7'>
-        <div className='modal'>
-          <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-          </Modal>
-          <p id="nip" onClick={ () => setIsOpen(true)}>$NIP</p>
-        </div>
+        <Link to="/Nip">
+          <button className='btn-7'>$nip</button>
+        </Link>
       </div>
       <div className='btn8'>
         <Link to="/traits">
           <button className='btn-8'>Traits</button>
         </Link>
+      </div>
+      <div className='btn9'>
+        <a href='https://twitter.com/FelineFiendz' target="_blank" rel='noreferrer'>
+          <button className='btn-9'>Twitter</button>
+        </a>
       </div>
     </div>
 
